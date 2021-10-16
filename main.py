@@ -4,6 +4,7 @@ import sys
 
 
 def main() -> int:
+    """main"""
     result = 1 + 1
     sys.stdout.write(f"Test {result}\n")
     return result
