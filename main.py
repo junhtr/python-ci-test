@@ -3,8 +3,10 @@
 import sys
 
 
-def main() -> None:
-    sys.stdout.write(f"Test {1 + 1}\n")
+def main() -> int:
+    result = 1 + 1
+    sys.stdout.write(f"Test {result}\n")
+    return result
 
 
 if __name__ == "__main__":
