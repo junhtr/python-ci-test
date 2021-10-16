@@ -1,7 +1,7 @@
 """Test for main.py"""
-import pytest
+import main
 
 
 def test_main() -> None:
     """test_main"""
-    assert main() == 2
+    assert main.main() == 2
