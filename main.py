@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+"""Python script to test GitHub actions"""
 import sys
 
 
